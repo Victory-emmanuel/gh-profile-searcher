@@ -139,7 +139,7 @@ const UserInfo = ({ userInfo, userRepo }) => {
         </Box>
       ))}
       <Link to={"/"}>
-        <button style={{ marginLeft: "1rem" }} className="user-back-btn">
+        <button style={{ margin: "0 0 1rem 1rem" }} className="user-back-btn">
           <ArrowBack />
         </button>
       </Link>
